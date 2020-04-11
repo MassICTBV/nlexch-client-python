@@ -9,7 +9,7 @@ class StreamingClient:
     def __init__(self,
         access_key,
         secret_key,
-        endpoint = "wss://www.nlexch.com:8080",
+        endpoint = "wss://www.nlexch.com:2096",
         logger = None 
     ):
         self.endpoint = endpoint
